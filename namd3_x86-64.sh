@@ -5,7 +5,9 @@
 # 
 # remember to download all the files on the login node
 # the compute nodes have no access to internet
-#
+# also look at this guide:
+# https://github.com/jvermaas/Software-Building-Instructions/blob/main/NAMD.md
+
 set -e
 
 if [[ ! -a build ]]; then
