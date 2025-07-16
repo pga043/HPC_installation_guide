@@ -32,3 +32,8 @@ cmake .. --install-prefix=/cluster/projects/nnXXX/softwares/openmm-8.0.0/build
 make -j4
 make install
 make PythonInstall
+
+
+# running cuda tests:
+# export OPENMM_CUDA_COMPILER=/opt/nvidia/hpc_sdk/Linux_aarch64/24.11/cuda/12.6/bin/nvcc
+# module load cpe-cuda/24.07 cuda/12.6
