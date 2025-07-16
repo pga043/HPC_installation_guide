@@ -19,6 +19,7 @@ wget https://www.doxygen.nl/files/doxygen-1.14.0.src.tar.gz
 cmake .. -B /cluster/projects/nnXXX/softwares/doxygen-1.14.0/build
 make -j all
 
+openmm=>
 mkdir build
 cd build
 
