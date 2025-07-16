@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#module load cray-python/3.11.7 cpe-cuda/24.07 cray-fftw/3.3.10.10 cuda/12.6
+
 Bison =>
 wget http://ftp.gnu.org/gnu/bison/bison-3.8.tar.xz
 ../configure --prefix=/cluster/projects/nnXXX/softwares/bison-3.8/build
