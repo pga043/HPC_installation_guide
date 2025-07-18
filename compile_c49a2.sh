@@ -17,5 +17,8 @@ export CMAKE_PREFIX_PATH=/opt/nvidia/hpc_sdk/Linux_aarch64/24.11/math_libs/12.6/
 export CPATH=/opt/nvidia/hpc_sdk/Linux_aarch64/24.11/math_libs/12.6/include:${CPATH}
 ../configure -u --with-blade -D FFTW_INCLUDE_DIR=/cluster/projects/nn4700k/softwares/fftw-3.3.10/build/include -D FFTW_LIBRARIES=/cluster/projects/nn4700k/softwares/fftw-3.3.10/build/lib
 
+## pycharmm =>
 
 ../configure -u --with-blade -D FFTW_INCLUDE_DIR=/cluster/projects/nn4700k/softwares/fftw-3.3.10/build/include -D FFTW_LIBRARIES=/cluster/projects/nn4700k/softwares/fftw-3.3.10/build/lib --as-library
+export CHARMM_LIB_DIR=/cluster/projects/nn4700k/softwares/c49b2/build_pycharmm
+pip install /cluster/projects/nn4700k/softwares/c49b2/tool/pycharmm
